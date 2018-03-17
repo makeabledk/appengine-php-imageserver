@@ -13,7 +13,9 @@ $app = new Application();
 $app->register(new TwigServiceProvider());
 $app['twig.path'] = [ __DIR__ ];
 
-// Change this variable to your bucket name, ie: 'project-xyz.appspot.com'
+// This variable should holde your Google Storage bucket name.
+// Your bucket name is usually of the format: 
+// {project-id}.appspot.com 
 $app['bucket_name'] = 'YOUR-PROJECT_ID.appspot.com';
 
 $app->get('/', function () use ($app) {
