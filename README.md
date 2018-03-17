@@ -139,6 +139,10 @@ Forcing PNG, WebP and GIF outputs can work in combination with circular crops fo
 - fInvert=0,1 inverts the image regardless of the value provided
 - fbw=0,1 makes the image black and white regardless of the value provided
 
+### Integrate with your project
+
+Checkout our Laravel package: [makeabledk/laravel-cloud-images](https://github.com/makeabledk/laravel-cloud-images)
+
 
 ## Pricing
 
