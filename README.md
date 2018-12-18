@@ -21,7 +21,7 @@ It may be necessary to enable billing by submitting a credit card to your accoun
 git clone https://github.com/makeabledk/laravel-cloud-images.git
 ```
 - Open `index.php`
-- Fill in your Google Project ID around *line 17*
+- Fill in your Google Project ID around *line 19*
 ```php
 $app['bucket_name'] = 'YOUR-PROJECT_ID.appspot.com'; // ie. project-xyz.appspot.com
 ```
