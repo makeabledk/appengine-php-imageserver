@@ -27,7 +27,7 @@ $app['bucket_name'] = 'YOUR-PROJECT_ID.appspot.com'; // ie. project-xyz.appspot.
 ```
 You can find your project-id under the panel *Project info* on the GCS project dashboard.
 
-### 2. Install gcloud on your maching
+### 2. Install gcloud on your machine
 
 Follow instructions from [https://cloud.google.com/sdk/](https://cloud.google.com/sdk/)
 
