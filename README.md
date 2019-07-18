@@ -18,7 +18,7 @@ It may be necessary to enable billing by submitting a credit card to your accoun
 
 - Clone this repo
 ```bash
-git clone https://github.com/makeabledk/laravel-cloud-images.git
+git clone https://github.com/makeabledk/appengine-php-imageserver.git
 ```
 - Open `index.php`
 - Fill in your Google Project ID around *line 19*
